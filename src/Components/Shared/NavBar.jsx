@@ -107,14 +107,16 @@ const NavBar = () => {
                     <div className='md:w-1/5 w-4/5 md:mx-10 mx-5 transition-all duration-150 ease-linear delay-75 flex items-center'>
                         {/* <img src={logo} alt="" className='w-1/6' /> */}
                         <h1 className={`md:text-3xl text-xl text-center block font-bold font-[poppins] text-green-800 
-                  ${scroll ? 'md:block' : 'md:hidden'}
+                            ${scroll ? 'md:block' : 'md:hidden'}
                   `}>FoodKo</h1>
                     </div>
 
                     <div className="md:w-[40%] w-full md:mx-10 mx-0 ">
 
-                        <div className={`w-full flex md:flex-row flex-col md:justify-around justify-center items-center  md:z-auto z-[-1] md:shadow-none shadow-xl md:bg-transparent bg-sky-800 md:py-0 py-2 md:static duration-300 delay-150 transition-all ease-linear absolute left-0 right-0 
-    ${open ? 'top-14' : '-top-80'}`}>
+                        <div
+                            className={`w-full flex md:flex-row flex-col md:justify-around justify-center items-center  md:z-auto z-[-1] md:shadow-none shadow-xl md:bg-transparent bg-sky-800 md:py-0 py-2 md:static duration-300 delay-150 transition-all ease-linear absolute left-0 right-0 
+                            ${open ? 'top-14' : '-top-80'}
+    `}>
                             {
                                 menuItems.map(item =>
                                     <Link key={item.menu}
