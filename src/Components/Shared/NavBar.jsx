@@ -24,7 +24,6 @@ const NavBar = () => {
             url: '/allreviews'
         }
 
-
     ]
     const handleOnScroll = () => {
         const isScrolled = window.scrollY > 0;
@@ -106,7 +105,7 @@ const NavBar = () => {
                 <nav className="flex justify-between items-center w-full">
                     <div className='md:w-1/5 w-4/5 md:mx-10 mx-5 transition-all duration-150 ease-linear delay-75 flex items-center'>
                         {/* <img src={logo} alt="" className='w-1/6' /> */}
-                        <h1 className={`md:text-3xl text-xl text-center block font-bold font-[poppins] text-green-800 
+                        <h1 className={`md:text-3xl text-xl text-center block font-bold font-[poppins] text-white 
                             ${scroll ? 'md:block' : 'md:hidden'}
                   `}>FoodKo</h1>
                     </div>
