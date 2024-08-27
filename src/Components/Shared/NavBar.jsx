@@ -16,12 +16,16 @@ const NavBar = () => {
             url: '/about'
         },
         {
-            menu: 'books',
-            url: '/allbooks'
+            menu: 'our menu',
+            url: '/menu'
         },
         {
-            menu: 'reviews',
-            url: '/allreviews'
+            menu: 'contact us',
+            url: '/contact'
+        },
+        {
+            menu: 'sign in',
+            url: '/signin'
         }
 
     ]

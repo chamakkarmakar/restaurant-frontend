@@ -30,6 +30,7 @@ const Footer = () => {
         <div className='text-center'>
           <h1 className='text-xl font-serif font-bold'>FoodKo</h1>
           <p>foodko@info.com</p>
+          <p>+880 123456789</p>
         </div>
         <div className='flex flex-col justify-center '>
           {
