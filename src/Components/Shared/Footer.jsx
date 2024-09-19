@@ -12,13 +12,10 @@ const Footer = () => {
       url: '/about'
     },
     {
-      menu: 'books',
-      url: '/allbooks'
-    },
-    {
-      menu: 'reviews',
-      url: '/allreviews'
+      menu: 'menu',
+      url: '/menu'
     }
+    
 
   ]
   return (
